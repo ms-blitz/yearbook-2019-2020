@@ -1,0 +1,65 @@
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: darkgreen;
+  font-size: 40px;
+}
+
+.logo {
+  height: 1in;
+}
+
+body {
+  background-color: white;
+}
+
+.page {
+  width: 7.5in;
+  height: 10in;
+  border: 5px solid darkgreen;
+  text-align: center;
+}
+
+.div {
+  display: inline-block;
+}
+
+.person {
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin: 0px 5px 15px 5px;
+}
+
+.portrait-img {
+  width: 1in;
+  height: 1.4in;
+  display: inline-block;
+}
+
+.name {
+  font-size: 15px;
+  font-family: monospace;
+  color: darkgreen;
+  text-align: center;
+  margin-bottom: 3px;
+
+  width: 1in;
+  word-wrap: normal;
+
+}
+
+.nickname {
+  font-size: 12px;
+  font-family: monospace;
+  color: darkgreen;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subheading {
+  font-size: 20px;
+  font-family: monospace;
+  color: darkgreen;
+  line-height: 0;
+}
