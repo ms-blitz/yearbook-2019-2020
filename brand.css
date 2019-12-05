@@ -1,0 +1,84 @@
+  *{
+    font-family: "Proxima Nova";
+  }
+  .logo {
+    height:33.5mm;
+    width:100mm; 
+    padding-top:5mm; 
+    padding-bottom:0mm;
+  }
+  
+  .page {
+    border: 5px solid #d3d3d3;
+    background-color:white;
+    border-bottom: 20px solid #EFC219; 
+  }
+  
+  .div {
+    display: inline-block;
+  }
+  
+  .person {
+    border: 1px solid white; 
+  }
+ 
+  .name {
+    font-size: 10px;
+    font-family: inherit;
+    color: #333333;
+  }
+  
+  .nickname {
+    font-size: 12px;
+    font-family: inherit;
+    color: #333333;
+  }
+  
+  .subheading-p-12 {
+    font-size: 20px;
+    font-family: inherit;
+    color:#cde6ae;
+    line-height: 0;
+    text-align: center;
+    padding-bottom: 15px; 
+  }
+
+  .grade-p-12 {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    color: #8CC541;
+  }
+
+  .subheading-faculty-staff{
+    font-size: 20px;
+    font-family: inherit;
+    color:#4290c7;
+    line-height: 0;
+    text-align: center;
+    padding-bottom: 15px; 
+  }
+
+  .faculty-staff {
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    color: #2073c6;
+  }
+
+  .heading{
+    font-family: "Proxima Nova";
+    text-align: center;
+    letter-spacing: 3pt;
+    font-weight:bold;
+    color: #8CC541;
+    font-size: 30px;
+  }
+  .subheading{
+    font-family: "Proxima Nova";
+    letter-spacing: 3pt;
+    font-weight: thin;
+    /* line-height: 0; */
+    color:#8CC541;
+    margin-bottom:30px;
+  }
