@@ -1,8 +1,4 @@
-/* change to brand */
-h1 {
-}
-
-/* done */
+/* All pages */
 body {
   background-color: white;
 }
@@ -23,7 +19,8 @@ body {
 
 .person {
   display: inline-block;
-  margin: 0px 5px 15px 5px;
+  margin: 0px 8px 15px 8px;
+  vertical-align:top;
 }
 
 .portrait-img {
@@ -35,16 +32,54 @@ body {
 .name {
   text-align: center;
   margin-bottom: 3px;
-
-  width: 1in;
+  width:100%; 
   word-wrap: normal;
 }
 
 .nickname {
   text-align: center;
-  margin-bottom: 5px;
+  height:10px;
 }
 
 .subheading {
-  margin-bottom: 20px;
+  margin-bottom: 45px;
+}
+
+/* Faculty Page */
+.faculty .portrait-img {
+  height: 1in;
+  width: 0.785in;
+}
+
+.person.faculty {
+  display: inline-block;
+  margin: 0px 3px 5px 3px;
+  vertical-align:top;
+}
+#not-pictured div{
+  font-size:10px;
+}
+/* Senior Pages */
+
+.senior{
+    /*background-color:orange;*/
+  height:calc(1.4in + 40px);
+  width:2.1in;
+  vertical-align:top;
+  margin-left: 0.13in;
+  margin-right: 0.13in;
+  margin-bottom: 0.25in;
+}
+.senior .name{
+  font-size:14pt;
+}
+
+.quote{
+  font-size:11pt;
+  float: right;
+  width: calc(1in - 6px);
+  padding: 2px 3px;
+  height: 1.35in;
+  display: table-cell;
+  vertical-align: middle;
 }
