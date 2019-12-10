@@ -3,8 +3,8 @@ body {
   background-color: white;
 }
 .logo{
-  margin-top:30px;
-  margin-bottom: 20px;
+  margin-top:20px;
+  margin-bottom: 10px;
 }
 
 .page {
@@ -58,7 +58,17 @@ body {
 }
 #not-pictured div{
   font-size:10px;
+  text-align:center;
 }
+#not-pictured table{
+  display:inline;
+}
+#not-pictured td{
+  text-align:left;
+  font-size:10px;
+  padding:1px 5px;
+}
+
 /* Senior Pages */
 
 .senior{
@@ -82,4 +92,27 @@ body {
   height: 1.35in;
   display: table-cell;
   vertical-align: middle;
+}
+.banner{
+  background: radial-gradient(rgba(32,115,198,0.75),rgba(32,115,198,0.9));
+  color:white;
+  height: 50px;
+  text-align: center;
+}
+.banner td{
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  /* width:25vw; */
+}
+.banner table{
+  display:inline;
+}
+.odd{
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.even{
+  letter-spacing: 2px;
+  font-weight: lighter;
 }
