@@ -116,3 +116,30 @@ body {
   letter-spacing: 2px;
   font-weight: lighter;
 }
+
+/* Intro Page */
+#intro-year {
+    /* display: inline-block; */
+    font-size: 80px;
+    padding-top: 120px;
+}
+
+#school {
+    height: 4.5in;
+    display: inline-block;
+    padding-top: .5in;
+}
+
+#intro {
+    font-size: 40px;
+    padding-top: 0.5in;
+}
+
+#town {
+    font-size: 30px;
+    margin-top: 20px;
+}
+/* Full page images */
+.fullpage-image{
+  width:7.5in;
+}
