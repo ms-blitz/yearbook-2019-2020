@@ -1,16 +1,50 @@
 /* All pages */
 body {
-  background-color: white;
+  /* background-color: white; */
 }
 .logo{
-  margin-top:20px;
-  margin-bottom: 10px;
+  /* margin-top:9mm;
+  margin-bottom: 10mm; */
+  margin-top:7mm;
+  margin-bottom: 8mm;
 }
-
+.printed-page{
+  counter-increment: page;
+}
+.cover, .blank{
+  counter-increment: page -1;
+}
 .page {
   width: 7.5in;
   height: 10in;
   text-align: center;
+  /* counter-increment: page; */
+  position: relative;
+  top:0.5in;
+  margin-bottom:0.5in;
+  margin-top:0.5in;
+}
+.cover {
+  width: 8.5in;
+  height: 11in;
+  margin: 0in;
+}
+.blank{
+  width: 8.5in;
+  height: 11in;
+  margin: 0in;
+}
+
+
+div.page:after {
+  content: counter(page);
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  z-index: 999;
+  padding: 2px 0px;
+  font-size: 12px;
+  width: 100%;
 }
 
 .div {
@@ -47,8 +81,8 @@ body {
 
 /* Faculty Page */
 .faculty .portrait-img {
-  height: 1in;
-  width: 0.785in;
+  width: calc(3 * 0.23in); /*0.785in;*/
+  height: calc(4.2 * 0.23in);  /*1in;*/
 }
 
 .person.faculty {
@@ -60,9 +94,13 @@ body {
   font-size:10px;
   text-align:center;
 }
+#not-pictured h5{
+  margin:10px; 
+}
 #not-pictured table{
   display:inline;
 }
+
 #not-pictured td{
   text-align:left;
   font-size:10px;
@@ -73,12 +111,12 @@ body {
 
 .senior{
     /*background-color:orange;*/
-  height:calc(1.4in + 40px);
-  width:2.1in;
-  vertical-align:top;
+  height: calc(1.4in + 40px);
+  width: 2.1in;
+  vertical-align: top;
   margin-left: 0.13in;
   margin-right: 0.13in;
-  margin-bottom: 0.25in;
+  margin-bottom: 0.1in;
 }
 .senior .name{
   font-size:14pt;
@@ -96,11 +134,11 @@ body {
 .banner{
   background: radial-gradient(rgba(32,115,198,0.75),rgba(32,115,198,0.9));
   color:white;
-  height: 50px;
+  height: 14mm;
   text-align: center;
 }
 .banner td{
-  height: 50px;
+  height: 14mm;
   vertical-align: middle;
   text-align: center;
   /* width:25vw; */
@@ -141,5 +179,10 @@ body {
 }
 /* Full page images */
 .fullpage-image{
-  width:7.5in;
+  width: calc(7.5in - 2*0.0625in);
+  z-index: -1;
+  position: relative;
+}
+.cover .fullpage-image{
+  width: 8.5in;
 }

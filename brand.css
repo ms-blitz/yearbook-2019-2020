@@ -1,17 +1,23 @@
   *{
     font-family: "Proxima Nova";
+    
+  }
+  body{
+    width:8.5in;
+    height:11in;
+    margin:0px;
+    padding:0px;
   }
   .logo {
     height:33.5mm;
     width:100mm; 
-    padding-top:5mm; 
-    padding-bottom:0mm;
   }
   
   .page {
-    border: 5px solid #d3d3d3;
-    background-color:white;
-    border-bottom: 20px solid #EFC219; 
+    border: 0.0625in solid #d3d3d3;
+    /* background-color:white; */
+    border-bottom: 0.22in solid #EFC219; 
+    box-sizing: border-box;
   }
   
   .div {

@@ -1,6 +1,17 @@
 .page{
   margin:0.5in;
 }
+.printed-page{
+  width: 8.5in;
+  height:11in;
+  display:block;
+}
+/* .printed-page:before{
+  content: " asdf ";
+  color:white;
+  display: inline-block;
+  height:0.1px;
+} */
 body{
   width:8.5in;
   /* border:1px solid red; */
@@ -9,7 +20,11 @@ body{
 }
 
 /* DEBUG */
-/* 
+
+
+/* .printed-page{background-color:darkred;}
+body{background-color: mediumslateblue;}
+.printed-page:before{background-color:lime; } 
 .page{background-color:red;}
 .person{background-color:orange;}
 .name{background-color:yellow;}
@@ -19,4 +34,5 @@ body{
 .subheading{background-color:pink;} 
 .quote{background-color:lightgreen;}
 .senior{background-color:lightblue;}
-.faculty{background-color:gray;} */
+.faculty{background-color:gray;}
+#not-pictured h5{background-color: magenta;} */
