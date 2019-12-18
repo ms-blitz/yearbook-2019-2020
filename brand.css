@@ -32,8 +32,7 @@
   
   .nickname {
     font-size: 11px;
-    font-style: italic;
-    font-family: inherit;
+    font-family: "Proxima Nova Alt Condensed";
     color: #333333;
   }
   .heading{

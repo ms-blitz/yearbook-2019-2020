@@ -73,6 +73,8 @@ div.page:after {
 .nickname {
   text-align: center;
   height:10px;
+  font-weight: 600;
+  letter-spacing: 1pt;
 }
 
 .subheading {
@@ -81,31 +83,27 @@ div.page:after {
 
 /* Faculty Page */
 .faculty .portrait-img {
-  width: calc(3 * 0.23in); /*0.785in;*/
-  height: calc(4.2 * 0.23in);  /*1in;*/
+  width: calc(3 * 0.24in); /*0.785in;*/
+  height: calc(4.2 * 0.24in);  /*1in;*/
+}
+.faculty .name{
+  font-size: 9px;
 }
 
 .person.faculty {
   display: inline-block;
-  margin: 0px 3px 5px 3px;
+  margin: 0px 3px 0px 3px;
   vertical-align:top;
 }
-#not-pictured div{
-  font-size:10px;
-  text-align:center;
+#not-pictured{
+  font-size:9px;
+  text-align:left;
+  display:inline-block;
 }
 #not-pictured h5{
-  margin:10px; 
-}
-#not-pictured table{
-  display:inline;
+  margin:0px 0px 5px 0px; 
 }
 
-#not-pictured td{
-  text-align:left;
-  font-size:10px;
-  padding:1px 5px;
-}
 
 /* Senior Pages */
 
